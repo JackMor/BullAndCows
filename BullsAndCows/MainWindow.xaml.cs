@@ -28,16 +28,15 @@ namespace BullsAndCows
 
         private void ButtonStart_Click(object sender, RoutedEventArgs e)
         {
-            Game w = new Game();
+            GameView w = new GameView();
             w.Show();
             this.Close();
         }
 
         private void ButtonAbout_Click(object sender, RoutedEventArgs e)
         {
-            Game w = new Game();
-            w.Show();
-            this.Close();
+            AboutView w = new AboutView();
+            w.ShowDialog();
         }
 
         private void ButtonExit_Click(object sender, RoutedEventArgs e)

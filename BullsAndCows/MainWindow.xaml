@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BullsAndCows"
         mc:Ignorable="d"
-        Title="BullAndCows" Height="150" Width="150">
+        Title="BullAndCows" Height="150" Width="150" WindowStartupLocation="CenterScreen">
     <Grid Background="#FFF0F0F0">
         <Grid.RowDefinitions>
             <RowDefinition/>
@@ -15,7 +15,7 @@
 
         <Button x:Name="ButtonStart" Grid.Row="0" Height="25" Margin="5" Click="ButtonStart_Click">Играть</Button>
         <Button x:Name="ButtonAbout" Grid.Row="1" Height="25" Margin="5" Click="ButtonAbout_Click">О программе</Button>
-        <Button x:Name="ButtonExit" Grid.Row="2" Height="25" Margin="5" Click="ButtonExit_Click">О программе</Button>
+        <Button x:Name="ButtonExit" Grid.Row="2" Height="25" Margin="5" Click="ButtonExit_Click">Выход</Button>
 
     </Grid>
 </Window>

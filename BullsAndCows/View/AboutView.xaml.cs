@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace BullsAndCows.View
 {
     /// <summary>
-    /// Логика взаимодействия для Game.xaml
+    /// Логика взаимодействия для About.xaml
     /// </summary>
-    public partial class Game : Window
+    public partial class AboutView : Window
     {
-        public Game()
+        public AboutView()
         {
             InitializeComponent();
         }
